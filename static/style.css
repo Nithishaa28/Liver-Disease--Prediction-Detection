@@ -1,0 +1,55 @@
+#spl1 {
+    background: url("../static/images/Liver-Disease-scaled.jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+}
+
+#splt {
+    text-align: center;
+    background: pink;
+    width: 400px;
+    height: 200px;
+}
+
+.center {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-input input {
+    display: none;
+}
+
+.form-input {
+    display:flex;
+    flex-direction:column;
+    height:500px;
+    width:400px;
+    /* border:1px solid black;*/
+    align-items: center;
+    margin:auto;
+    margin-top:50px;
+    background-color:rgba(0,0,0,0.5);
+    box-shadow:insert -5px -5px rgba(0,0,0,0.5);
+    border-radius: 25px;
+}
+.form h1{
+    color: #777d47;
+    font-size:2rem;
+    border-bottom:4px solid rgba(255,255,255,0.5);
+    margin:50px;
+}
+.box{
+    padding:12px;
+    margin:20px;
+    width:65%;
+    border: none;
+    outline:none;
+    border-radius:20px;
+    background:rgba(0,0,0,0.5);
+    box-shadow: inset -3px -3px rgba(0,0,0,0.5);
+    color: white;
+    font-size:1rem;
+}
